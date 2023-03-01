@@ -1,0 +1,91 @@
+/* start _ CSS for the form */
+
+.form {
+    position: relative;
+    width: 500px;
+    height: 230px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.formR {
+    position: relative;
+    width: 500px;
+    height: 360px;
+    margin: auto;
+    background-color: rgba(107, 70, 70, 0.347);
+    border-radius: 30px;
+}
+
+.footer {
+    width: 800px;
+    margin: auto;
+}
+
+.btnGoBack {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+#checkbox {
+    float:right;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+
+#autoSizeInputBoxR {
+    padding-top: 25px;
+    width: 400px;
+    margin: auto;
+}
+
+#autoSizeInputBox {
+    padding-top: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+/*  end _ CSS for the form */
+/* start _ CSS for the game */
+.field {
+    position:relative;
+    width:800px;
+    height:450px;
+    background-color:green;
+    margin: auto;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(208, 192, 223);
+}
+
+.door {
+    position: absolute;
+    width:30px;
+    height:100px;
+    background-color:grey;
+}
+
+.player {
+    position: absolute;
+    width:40px;
+    height:60px;
+    background-image: url('../images/player.png');
+}
+
+.ball {
+    background-image: url('../images/ball.png');
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.barrier {
+    position: absolute;
+    width:20px;
+    height:70px;
+    background-image: url('../images/barrier.png');
+}
+/*  end _ CSS for the game */
